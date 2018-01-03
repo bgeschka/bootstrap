@@ -149,8 +149,7 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.debounce', 'ui.bootstrap
       });
       element.css({
         'position': 'relative',
-        'vertical-align': 'top',
-        'background-color': 'transparent'
+        'vertical-align': 'top'
       });
 
       if (hintInputElem.attr('id')) {
